@@ -1,0 +1,98 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+     int paket, n, H, Hp ;
+     cout << " **************************************"<<endl;
+     cout << "          | TOKO KURMA BAROKAH |" <<endl;
+     cout << " **************************************"<<endl;
+     cout << " "<<endl;
+     cout << " 1. Kurma Mesir          ( Harga Rp 30.000,00/kg)" <<endl;
+     cout << " 2. Kurma Tunisia        ( Harga Rp 70.000,00/kg)" <<endl;
+     cout << " 3. Kurma Sukari         ( Harga Rp 72.000,00/kg)" <<endl;
+     cout << " 4. Kurma Madu Iran      ( Harga Rp 65.000,00/kg)" <<endl;
+     cout << " 5. Kurma Medjool        ( Harga Rp 350.000,00/kg)" <<endl;
+     cout << " 6. Kurma Ajwa           ( Harga Rp 350.000,00/kg)" <<endl;
+     cout << " "<<endl;
+     cout << " =================================================="<<endl;
+     cout<<" "<<endl;
+
+     cout << " Masukkan pilihan jenis kurma : ";
+     cin>> paket ;
+     if(paket==1)
+     {
+         cout << " 1. Kurma Mesir          ( Harga Rp 30.000,00/kg)"<<endl;
+         cout << " Masukkan jumlah (kg): ";
+         cin>>n;
+         cout<<" _________________"<<endl;
+         Hp = 30000;
+         H = Hp*n;
+         cout<<" "<<endl;
+         cout << " Total Pembayaran : "<<H;
+     }
+     else if(paket==2)
+     {
+         cout << " 2. Kurma Tunisia        ( Harga Rp 70.000,00/kg)"<<endl;
+         cout << " Masukkan jumlah (kg) : ";
+         cin>>n;
+         cout<<" ===================================================="<<endl;
+         Hp = 70000;
+         H = Hp*n;
+         cout<<" "<<endl;
+         cout << " Biaya yang harus dibayar : "<<H;
+     }
+     else if(paket==3)
+     {
+         cout << " 3. Kurma Sukari         ( Harga Rp 72.000,00/kg)"<<endl;
+         cout << " Masukkan jumlah (kg) : ";
+         cin>>n;
+         cout<<" ===================================================="<<endl;
+         Hp = 72000;
+         H = Hp*n;
+         cout<<" "<<endl;
+         cout << " Total Pembayaran : "<<H;
+     }
+     else if(paket==4)
+     {
+         cout << " 4. Kurma Madu Iran      ( Harga Rp 65.000,00/kg)"<<endl;
+         cout << " Masukkan jumlah (kg) : ";
+         cin>>n;
+         cout<<" ===================================================="<<endl;
+         Hp = 65000;
+         H = Hp*n;
+         cout<<" "<<endl;
+         cout << " Total Pembayaran : "<<H;
+     }
+     else if(paket==5)
+     {
+         cout << " 5. Kurma Medjool        ( Harga Rp 350.000,00/kg)"<<endl;
+         cout << " Masukkan jumlah (kg) : ";
+         cin>>n;
+         cout<<" ===================================================="<<endl;
+         Hp = 350000;
+         H = Hp*n;
+         cout<<" "<<endl;
+         cout << " Total Pembayaran : "<<H;
+     }
+     else if(paket==6)
+     {
+         cout << " 6. Kurma Ajwa           ( Harga Rp 350.000,00/kg)"<<endl;
+         cout << " Masukkan jumlah (kg) : ";
+         cin>>n;
+         cout<<" ===================================================="<<endl;
+         Hp = 350000;
+         H = Hp*n;
+         cout<<" "<<endl;
+         cout << " Total Pembayaran : "<<H;
+     }
+     else {
+         cout << " Pilihan yang anda inginkan tidak ada ";
+
+     }
+     cout<<" "<<endl;
+     cout<<" "<<endl;
+     cout<<" ===================================================="<<endl;
+     cout<<" "<<endl;
+     cout << " TERIMAKASIH, KAMI TUNGGU KEDATANGAN ANDA KEMBALI ";
+return 0;
+} 
